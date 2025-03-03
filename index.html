@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Mind Map</title>
+    <style>
+        {
+            box-sizing:border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .mind-map {
+            margin-top: 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .node {
+            background: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .branch {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .sub-node {
+            background: #2ecc71;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="mind-map">
+        <div class="node">JavaScript</div>
+        
+        <div class="branch">
+            <div class="node">Syntax & Basics
+                <div class="sub-node">Variables (var, let, const)</div>
+                <div class="sub-node">Data Types (String, Number, Boolean, Object, Array)</div>
+                <div class="sub-node">Operators (Arithmetic, Comparison, Logical, Assignment)</div>
+                <div class="sub-node">Conditionals (if, else, switch, ternary operator)</div>
+                <div class="sub-node">Loops (for, while, do-while, forEach)</div>
+            </div>
+            <div class="node">Functions
+                <div class="sub-node">Function Declaration</div>
+                <div class="sub-node">Function Expressions</div>
+                <div class="sub-node">Arrow Functions</div>
+                <div class="sub-node">Callback Functions</div>
+                <div class="sub-node">Closures & Scope</div>
+            </div>
+            <div class="node">DOM Manipulation
+                <div class="sub-node">Selecting Elements (getElementById, querySelector, getElementsByClassName)</div>
+                <div class="sub-node">Modifying Elements (innerText, innerHTML, value)</div>
+                <div class="sub-node">Event Listeners (click, mouseover, keypress, onchange)</div>
+                <div class="sub-node">Creating & Deleting Elements (createElement, appendChild, removeChild)</div>
+            </div>
+            <div class="node">Advanced JavaScript
+                <div class="sub-node">Scope (Global, Local, Block)</div>
+                <div class="sub-node">Hoisting</div>
+                <div class="sub-node">Asynchronous JS (setTimeout, setInterval, Event Loop)</div>
+                <div class="sub-node">Promises (then, catch, finally)</div>
+                <div class="sub-node">Fetch API & AJAX</div>
+            </div>
+            <div class="node">OOP
+                <div class="sub-node">Objects & Properties</div>
+                <div class="sub-node">Classes & Constructors</div>
+                <div class="sub-node">Prototype & Prototypal Inheritance</div>
+                <div class="sub-node">Encapsulation & Abstraction</div>
+            </div>
+            <div class="node">JavaScript & Web APIs
+                <div class="sub-node">Local Storage & Session Storage</div>
+                <div class="sub-node">Cookies</div>
+                <div class="sub-node">Geolocation API</div>
+                <div class="sub-node">Web Animations API</div>
+                <div class="sub-node">Fetch API</div>
+            </div>
+            <div class="node">JavaScript in Practice
+                <div class="sub-node">Debugging (console.log, breakpoints)</div>
+                <div class="sub-node">Performance Optimization</div>
+                <div class="sub-node">Security Best Practices</div>
+                <div class="sub-node">Building Real Projects (To-Do App, Weather App, Portfolio Website)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
